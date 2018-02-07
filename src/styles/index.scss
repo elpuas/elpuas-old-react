@@ -1,0 +1,15 @@
+@import "variables";
+@import "mixins";
+
+body {
+  font-family: $fontContent;
+}
+
+h1, h2 {
+  font-family: $fontHeaders;
+}
+
+.img-responsive {
+  width: 100%;
+  max-width: 100%;
+}
