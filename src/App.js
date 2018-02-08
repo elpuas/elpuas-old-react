@@ -15,6 +15,7 @@ class App extends Component {
         subtitle="what i do"
         subhero={{items:["User Experience","Design.", "eCommerce.", "WordPress Expertise.", "Front-End.", "Mobile."]}}
          />
+        <div className="container__block--yellow"></div>
         <Carousel title="work" />
         <Blog title="words" post={{title:"Blog Title", excerpt:"This is the Excerpt"}}  />
       </div>

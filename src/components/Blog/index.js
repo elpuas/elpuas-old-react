@@ -1,8 +1,10 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
+import './styles.scss'
+
 const Blog = ({ title, post={} }) => (
-  <Grid className="home__carousel">
+  <Grid className="blog__container">
     <Row>
       <Col xs>
         <div>
