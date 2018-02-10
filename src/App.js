@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 import Home from './components/Home';
 import Carousel from './components/Carousel';
-import Blog from './components/Blog';
+import Posts from './components/Posts';
 import './App.scss';
 
 class App extends Component {
@@ -17,11 +17,22 @@ class App extends Component {
          />
         <div className="container__block--yellow"></div>
         <Carousel title="work" />
-        <Blog title="words" post={{title:"Blog Title", excerpt:"This is the Excerpt"}}  />
+        <Posts className="home__blog-hero-post"
+          posts={{
+            image:"http://facetheforce.today/random/400?r=2",
+            title:"This is my title",
+            excerpt:"Here Bitch Some Excerpt",
+          }}
+           />
+         <Posts className="home__blog-hero-secondary"
+             posts={{
+               title:"This is my title secondary",
+               excerpt:"Here Bitch Some More Excerpt",
+             }}
+            />
       </div>
     );
   }
 }
 
 export default App;
-  
