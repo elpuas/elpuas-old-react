@@ -51,6 +51,24 @@
   }
 }
 
+/**
+ * Home Blog Container
+ */
+
+.home__blog--container {
+    height: 100vh;
+    background: linear-gradient(-45deg, #F44336, purple, #673AB7, #00BCD4);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    padding: 1rem;
+}
+
+/**
+ * Gradient Animation Keyframes
+ */
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
