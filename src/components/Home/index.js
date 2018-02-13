@@ -10,12 +10,12 @@ const Content = {
   'title': 'elpuas',
   'hero': 'Full Stack Designer & Front-End Dev, I’m a Web Artisan and WordPress Wrangler',
   'subtitle':'what i do',
-  'subhero': ["User Experience","Design.", "eCommerce.", "WordPress Expertise.", "Front-End.", "Mobile."],
+  'subhero': ["User Experience","Design.", "eCommerce.", "WordPress Expertise.",
+   "Front-End.", "Mobile."],
 }
 
 const Home = () => (
       <div>
-        {/* A JSX comment */}
         <Grid className="home__first-paint">
           <Row>
             <Col xs>

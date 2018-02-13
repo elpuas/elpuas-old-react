@@ -14,7 +14,7 @@ const Posts  = ({posts={}}) => (
         {posts.excerpt && (
           <p className="blog__container--excerpt">{posts.excerpt}</p>
         )}
-           {posts.categories && (
+        {posts.categories && (
           <ul className="blog__container--cat">
             {posts.categories.map(cat => <li key={cat}>{cat}</li>)}
           </ul>
