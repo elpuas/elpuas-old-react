@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import Home from './components/Home';
+import React, { Component } from 'react'
 import Header from './components/Header'
+import Routes from './Routes'
 import Footer from './components/Footer'
 import './App.scss';
 
@@ -8,14 +8,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <Home
-        title="el.puas"
-        hero="Full Stack Designer &amp; Front-End Dev, I’m a Web Artisan and WordPress Wrangler"
-        subtitle="what i do"
-        subhero={{items:["User Experience","Design.", "eCommerce.", "WordPress Expertise.", "Front-End.", "Mobile."]}}
-         />
-       <Footer />
+        <Header/>
+        <Routes />
+        <Footer />
       </div>
     );
   }

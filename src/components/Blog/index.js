@@ -11,8 +11,8 @@ const Blog = () => (
         <Posts
           posts={{
             image:"",
-            title:"",
-            content:"",
+            title:"This is My Blog Page",
+            content:"Here all my blog post will be fetch",
           }}
            />
       </Col>

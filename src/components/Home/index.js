@@ -5,22 +5,30 @@ import Carousel from '../Carousel';
 import Posts from '../Posts';
 
 import './styles.scss'
-const Home = ({ title, hero, subtitle, subhero={} }) => (
+
+const Content = {
+  'title': 'elpuas',
+  'hero': 'Full Stack Designer & Front-End Dev, I’m a Web Artisan and WordPress Wrangler',
+  'subtitle':'what i do',
+  'subhero': ["User Experience","Design.", "eCommerce.", "WordPress Expertise.", "Front-End.", "Mobile."],
+}
+
+const Home = () => (
       <div>
         {/* A JSX comment */}
         <Grid className="home__first-paint">
           <Row>
             <Col xs>
-              <h1>{title}</h1>
-              <h2><Typist>{hero}</Typist></h2>
+              <h1>{Content.title}</h1>
+              <h2><Typist>{Content.hero}</Typist></h2>
             </Col>
           </Row>
           <Row>
             <Col xs>
-              <h2>{subtitle}</h2>
-              {subhero.items && (
+              <h2>{Content.subtitle}</h2>
+              {Content.subhero && (
               <ul>
-                {subhero.items.map(item => <li key={item}>{item}</li>)}
+                {Content.subhero.map(item => <li key={item}>{item}</li>)}
               </ul>
               )}
             </Col>

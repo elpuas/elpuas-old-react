@@ -1,4 +1,11 @@
-$homeTitle:   5rem;
-$homeSubtitle: 1.5rem;
-$fontHeaders: 'Roboto', sans-serif;
-$fontContent: 'Raleway', sans-serif;
+$homeTitle:      5rem;
+$homeSubtitle:   1.5rem;
+$fontHeaders:   'Roboto', sans-serif;
+$fontContent:   'Raleway', sans-serif;
+
+$maxWidth:      max-device-width;
+$minWidth:      min-device-width;
+
+$mobile:       425px;
+$tablet:       720px;
+$desktop:      1366px;
