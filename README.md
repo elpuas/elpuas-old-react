@@ -1,5 +1,1 @@
-Clone
-```
-yarn
-yarn start
-```
+# Hi There 👋
